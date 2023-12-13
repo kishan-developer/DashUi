@@ -1,0 +1,109 @@
+
+.contact_section {
+    width: 100%;
+    background-color: rgb(216, 222, 247);
+    color: black;
+    display: block;
+    padding: 0 40px;
+}
+
+.contact_section .top_child {
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top_child .top_left_child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    font-weight: 700;
+}
+
+input {
+    border: none;
+    outline: none;
+    height: 38px;
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+
+.input_style{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 300px;
+    height: 45px;
+    line-height: 45px;
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+    padding-left: 15px;
+    background-color: white;
+}
+
+.card_section {
+    width: 100%;
+    display: flex;
+    /* gap: 30px; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_section .cards {
+    width:23%;
+    height: 160px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#largIcon{
+   background-color: lightgreen;
+   width:40%;
+   height: 100px;
+   padding: 20px;
+   border-radius: 50%;
+}
+
+.lart_icon {
+    color: rgb(8, 137, 12);
+    
+}
+
+.icon_mini {
+    width: 17px;
+    height: 17px;
+}
+
+/* // graph */
+.graph {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.graph .left_graph {
+    width: 65%;
+    height: 400px;
+    background-color: black;
+}
+
+.graph .right_graph{
+    width: 32%;
+    height: 400px;
+    background-color: black;
+}
+
+.product_sell {
+    width: 100%;
+    margin: 20px 0px;
+    height: 600px;
+    background-color: rgb(245, 181, 181);
+}
